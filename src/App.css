@@ -1,0 +1,30 @@
+header h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+div button {
+    margin: 5px;
+}
+
+div button:focus {
+    background-color: #553c9a;
+    color: white;
+}
+
+header h6,.welcome
+ {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    background-image: repeating-conic-gradient(#553c9a 0%, #553c9a 5%, #ee4b2b 10%, #ee4b2b 20%,
+            #00c2cb 20%, #00c2cb 30%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
